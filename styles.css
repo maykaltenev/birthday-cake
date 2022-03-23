@@ -57,10 +57,17 @@ h4 {
 
 h1 {
   color: #b0ffb4;
+  box-shadow: 0 0 5px #b0ffb4e4;
+  background-color: #dfbaffaa;
+  font-size: 50px;
 }
 .final.show {
   transform: translate(-50%, -50%) scale(1);
   animation: show 0.2s ease-out;
+}
+.final span {
+  color: #86419acf;
+  font-size: 2rem;
 }
 @keyframes show {
   0% {
@@ -95,11 +102,11 @@ h1 {
 
 .nums span.in {
   transform: translate(-50%, -50%) rotate(0deg);
-  animation: goIn 0.4s ease-in-out;
+  animation: goIn 0.3s ease-out;
 }
 
 .nums span.out {
-  animation: goOut 0.2s ease-in-out;
+  animation: goOut 0.3s ease-in;
 }
 
 @keyframes goIn {

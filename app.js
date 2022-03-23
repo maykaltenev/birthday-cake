@@ -143,4 +143,4 @@ for (var i = 0; i < maxConfettis; i++) {
 // Initialize
 canvas.width = W;
 canvas.height = H;
-setTimeout(Draw, 14100);
+setTimeout(Draw, 14000);
